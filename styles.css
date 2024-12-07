@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 10%, rgba(252, 70, 107, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(10, 30, 70, 1) 10%, rgba(0, 0, 20, 1) 90%);
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -11,21 +11,22 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid #ffcc00;
+    border: 2px solid #00ffcc;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 15px #000;
+    background: linear-gradient(135deg, rgba(0, 204, 153, 0.9), rgba(102, 51, 204, 0.9));
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.6);
 }
 
 .header h1 {
     font-size: 2.5rem;
-    color: #ffcc00;
+    color: #00ffcc;
     margin-bottom: 10px;
 }
 
 .header p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    color: #e0ffe0;
 }
 
 .details p {
@@ -44,6 +45,7 @@ body {
     border-radius: 10px;
     width: 30%;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .images img:hover {
@@ -57,7 +59,7 @@ body {
 #confirm-button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ffcc00;
+    background-color: #00ffcc;
     border: none;
     border-radius: 5px;
     color: #001d3d;
@@ -67,5 +69,5 @@ body {
 }
 
 #confirm-button:hover {
-    background-color: #ffd633;
+    background-color: #00e6b3;
 }
